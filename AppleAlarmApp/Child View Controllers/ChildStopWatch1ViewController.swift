@@ -18,4 +18,10 @@ class ChildStopWatch1ViewController: UIViewController {
         super.viewWillAppear(animated)
         NotificationCenter.default.post(name: StopwatchViewController.pageSwipedNotification, object: nil, userInfo: [StopwatchViewController.pageIndexKey : 1])
     }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        //remove the notification
+        NotificationCenter.default.removeObserver(self, name: StopwatchViewController.pageSwipedNotification, object: nil)
+    }
 }
