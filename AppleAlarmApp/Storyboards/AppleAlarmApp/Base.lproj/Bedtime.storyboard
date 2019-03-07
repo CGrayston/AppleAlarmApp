@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="4se-tV-GRn">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Bedtime-->
+        <scene sceneID="cfP-hy-dBC">
+            <objects>
+                <viewController id="GmW-er-JOm" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Nxy-Fx-79W">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="NMt-nS-Mje">
+                                <rect key="frame" x="8" y="128" width="359" height="216"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bedtime" translatesAutoresizingMaskIntoConstraints="NO" id="Coj-jC-JlH">
+                                        <rect key="frame" x="161" y="0.0" width="37" height="37"/>
+                                        <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Coj-jC-JlH" secondAttribute="height" multiplier="1:1" id="TmF-hU-mh1"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Introducing Bedtime" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ai0-qc-VUv">
+                                        <rect key="frame" x="42" y="61" width="275" height="28"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="24"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Going to bed and waking up at the same times every day are keysto healthy sleep." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YQc-gU-X5P">
+                                        <rect key="frame" x="0.0" y="113" width="359" height="26"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="11"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bedtime can help." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dsK-0o-pLz">
+                                        <rect key="frame" x="123" y="163" width="113" height="13"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="11"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" text=" Answer a few simple questions tos et up a recurring wake-up alarm and get a reminder when it's bedtime." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kbW-dj-n2c">
+                                        <rect key="frame" x="4" y="200" width="351" height="16"/>
+                                        <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="11"/>
+                                        <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="216" id="l8q-dp-NOw"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4mo-Ua-e71">
+                                <rect key="frame" x="36" y="583" width="303" height="48"/>
+                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="4ff-MU-4Hp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                                <state key="normal" title="Get Started">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="eHZ-85-Z6x" firstAttribute="bottom" secondItem="4mo-Ua-e71" secondAttribute="bottom" constant="36" id="4yD-kQ-H3Q"/>
+                            <constraint firstAttribute="trailing" secondItem="NMt-nS-Mje" secondAttribute="trailing" constant="8" id="ZJE-tp-ZmY"/>
+                            <constraint firstItem="eHZ-85-Z6x" firstAttribute="trailing" secondItem="4mo-Ua-e71" secondAttribute="trailing" constant="36" id="bjR-8u-3Xy"/>
+                            <constraint firstItem="4mo-Ua-e71" firstAttribute="leading" secondItem="eHZ-85-Z6x" secondAttribute="leading" constant="36" id="nJd-Kx-uZY"/>
+                            <constraint firstItem="NMt-nS-Mje" firstAttribute="centerX" secondItem="Nxy-Fx-79W" secondAttribute="centerX" id="oCW-fK-cwA"/>
+                            <constraint firstItem="NMt-nS-Mje" firstAttribute="top" secondItem="eHZ-85-Z6x" secondAttribute="top" constant="64" id="smr-Rc-dxP"/>
+                            <constraint firstItem="NMt-nS-Mje" firstAttribute="leading" secondItem="eHZ-85-Z6x" secondAttribute="leading" constant="8" id="xOq-pr-si8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eHZ-85-Z6x"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Bedtime" id="cDF-4c-FQt"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GI8-3O-mmv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="976.79999999999995" y="54.422788605697157"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="MfI-Cq-2jq">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="4se-tV-GRn" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="sOp-hv-2Ox"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="nxW-Wb-MfV">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="GmW-er-JOm" kind="relationship" relationship="rootViewController" id="LCr-Mw-931"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lQR-vz-G57" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="37.600000000000001" y="54.422788605697157"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bedtime" width="37.5" height="37.5"/>
+    </resources>
+</document>

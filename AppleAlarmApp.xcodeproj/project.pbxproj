@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0A71ACA322318ABA0060CD78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A71ACA222318ABA0060CD78 /* AppDelegate.swift */; };
-		0A71ACA522318ABA0060CD78 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A71ACA422318ABA0060CD78 /* ViewController.swift */; };
 		0A71ACA822318ABA0060CD78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A71ACA622318ABA0060CD78 /* Main.storyboard */; };
 		0A71ACAA22318ABD0060CD78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A71ACA922318ABD0060CD78 /* Assets.xcassets */; };
 		0A71ACAD22318ABD0060CD78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A71ACAB22318ABD0060CD78 /* LaunchScreen.storyboard */; };
@@ -17,12 +16,15 @@
 		0A71ACC822319D7A0060CD78 /* Bedtime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A71ACC622319D7A0060CD78 /* Bedtime.storyboard */; };
 		0A71ACCA22319D870060CD78 /* Stopwatch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A71ACC922319D870060CD78 /* Stopwatch.storyboard */; };
 		0A71ACCD22319D990060CD78 /* Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A71ACCB22319D990060CD78 /* Timer.storyboard */; };
+		2E56CA6A2231B6CA00796109 /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56CA692231B6CA00796109 /* StopwatchViewController.swift */; };
+		2E56CA6C2231B77100796109 /* StopwacthPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56CA6B2231B77100796109 /* StopwacthPageViewController.swift */; };
+		2E56CA712231BB9800796109 /* ChildStopwatch2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56CA702231BB9800796109 /* ChildStopwatch2ViewController.swift */; };
+		2E56CA732231BBB800796109 /* ChildStopWatch1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56CA722231BBB800796109 /* ChildStopWatch1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0A71AC9F22318ABA0060CD78 /* AppleAlarmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleAlarmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A71ACA222318ABA0060CD78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0A71ACA422318ABA0060CD78 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0A71ACA722318ABA0060CD78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A71ACA922318ABD0060CD78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A71ACAC22318ABD0060CD78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +34,10 @@
 		0A71ACC722319D7A0060CD78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = AppleAlarmApp/Base.lproj/Bedtime.storyboard; sourceTree = "<group>"; };
 		0A71ACC922319D870060CD78 /* Stopwatch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Stopwatch.storyboard; sourceTree = "<group>"; };
 		0A71ACCC22319D990060CD78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = AppleAlarmApp/Base.lproj/Timer.storyboard; sourceTree = "<group>"; };
+		2E56CA692231B6CA00796109 /* StopwatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
+		2E56CA6B2231B77100796109 /* StopwacthPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwacthPageViewController.swift; sourceTree = "<group>"; };
+		2E56CA702231BB9800796109 /* ChildStopwatch2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildStopwatch2ViewController.swift; sourceTree = "<group>"; };
+		2E56CA722231BBB800796109 /* ChildStopWatch1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildStopWatch1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,11 +54,6 @@
 		0A71AC9622318ABA0060CD78 = {
 			isa = PBXGroup;
 			children = (
-				0A71ACCB22319D990060CD78 /* Timer.storyboard */,
-				0A71ACC922319D870060CD78 /* Stopwatch.storyboard */,
-				0A71ACC622319D7A0060CD78 /* Bedtime.storyboard */,
-				0A71ACC422319D690060CD78 /* Alarm.storyboard */,
-				0A71ACC122319D580060CD78 /* WorldClock.storyboard */,
 				0A71ACA122318ABA0060CD78 /* AppleAlarmApp */,
 				0A71ACA022318ABA0060CD78 /* Products */,
 			);
@@ -69,14 +70,54 @@
 		0A71ACA122318ABA0060CD78 /* AppleAlarmApp */ = {
 			isa = PBXGroup;
 			children = (
-				0A71ACA222318ABA0060CD78 /* AppDelegate.swift */,
-				0A71ACA422318ABA0060CD78 /* ViewController.swift */,
+				2E56CA682231B64900796109 /* View Controllers */,
+				2E56CA6D2231BAEA00796109 /* Child View Controllers */,
+				2E56CA6622319FCC00796109 /* Storyboards */,
+				2E56CA6722319FDA00796109 /* Resources */,
 				0A71ACA622318ABA0060CD78 /* Main.storyboard */,
-				0A71ACA922318ABD0060CD78 /* Assets.xcassets */,
 				0A71ACAB22318ABD0060CD78 /* LaunchScreen.storyboard */,
-				0A71ACAE22318ABD0060CD78 /* Info.plist */,
 			);
 			path = AppleAlarmApp;
+			sourceTree = "<group>";
+		};
+		2E56CA6622319FCC00796109 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0A71ACC122319D580060CD78 /* WorldClock.storyboard */,
+				0A71ACC422319D690060CD78 /* Alarm.storyboard */,
+				0A71ACC622319D7A0060CD78 /* Bedtime.storyboard */,
+				0A71ACC922319D870060CD78 /* Stopwatch.storyboard */,
+				0A71ACCB22319D990060CD78 /* Timer.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2E56CA6722319FDA00796109 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A71ACA222318ABA0060CD78 /* AppDelegate.swift */,
+				0A71ACA922318ABD0060CD78 /* Assets.xcassets */,
+				0A71ACAE22318ABD0060CD78 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2E56CA682231B64900796109 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E56CA692231B6CA00796109 /* StopwatchViewController.swift */,
+				2E56CA6B2231B77100796109 /* StopwacthPageViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		2E56CA6D2231BAEA00796109 /* Child View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2E56CA702231BB9800796109 /* ChildStopwatch2ViewController.swift */,
+				2E56CA722231BBB800796109 /* ChildStopWatch1ViewController.swift */,
+			);
+			path = "Child View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,8 +196,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A71ACA522318ABA0060CD78 /* ViewController.swift in Sources */,
+				2E56CA6A2231B6CA00796109 /* StopwatchViewController.swift in Sources */,
+				2E56CA732231BBB800796109 /* ChildStopWatch1ViewController.swift in Sources */,
+				2E56CA6C2231B77100796109 /* StopwacthPageViewController.swift in Sources */,
 				0A71ACA322318ABA0060CD78 /* AppDelegate.swift in Sources */,
+				2E56CA712231BB9800796109 /* ChildStopwatch2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,8 +371,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2P8CC25627;
-				INFOPLIST_FILE = AppleAlarmApp/Info.plist;
+				DEVELOPMENT_TEAM = 9DGMQB3935;
+				INFOPLIST_FILE = "$(SRCROOT)/AppleAlarmApp/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -345,8 +389,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 2P8CC25627;
-				INFOPLIST_FILE = AppleAlarmApp/Info.plist;
+				DEVELOPMENT_TEAM = 9DGMQB3935;
+				INFOPLIST_FILE = "$(SRCROOT)/AppleAlarmApp/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
