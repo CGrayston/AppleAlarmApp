@@ -13,7 +13,7 @@
         <scene sceneID="qGa-Cj-2sv">
             <objects>
                 <tabBarController id="EWD-vJ-d74" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cNX-9P-pgE">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="cNX-9P-pgE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -34,7 +34,7 @@
         <scene sceneID="1yN-NA-S5c">
             <objects>
                 <viewControllerPlaceholder storyboardName="WorldClock" id="LjK-2T-MAS" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="BTJ-iM-HbC"/>
+                    <tabBarItem key="tabBarItem" title="World Clock" id="BTJ-iM-HbC"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6k0-qq-SIc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -44,7 +44,7 @@
         <scene sceneID="ZqV-jb-JFy">
             <objects>
                 <viewControllerPlaceholder storyboardName="Alarm" id="Gbh-I6-8OZ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="jvm-mn-iqQ"/>
+                    <tabBarItem key="tabBarItem" title="Alarm" id="jvm-mn-iqQ"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sQc-VU-YQS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
