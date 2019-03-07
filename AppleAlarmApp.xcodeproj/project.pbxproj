@@ -80,13 +80,13 @@
 				0A71ACC922319D870060CD78 /* Stopwatch.storyboard */,
 				0A71ACC622319D7A0060CD78 /* Bedtime.storyboard */,
 				0A71ACA222318ABA0060CD78 /* AppDelegate.swift */,
+				0A71ACAE22318ABD0060CD78 /* Info.plist */,
 				2E56CA682231B64900796109 /* View Controllers */,
 				2E56CA6D2231BAEA00796109 /* Child View Controllers */,
 				2E56CA6622319FCC00796109 /* Storyboards */,
 				2E56CA6722319FDA00796109 /* Resources */,
 				0A71ACA622318ABA0060CD78 /* Main.storyboard */,
 				0A71ACAB22318ABD0060CD78 /* LaunchScreen.storyboard */,
-				0A71ACAE22318ABD0060CD78 /* Info.plist */,
 				0A54E7482231BB480021E8A4 /* TimerViewController.swift */,
 				0A54E74A2231BCCD0021E8A4 /* RoundButton.swift */,
 			);
@@ -96,11 +96,6 @@
 		2E56CA6622319FCC00796109 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				0A71ACC122319D580060CD78 /* WorldClock.storyboard */,
-				0A71ACC422319D690060CD78 /* Alarm.storyboard */,
-				0A71ACC622319D7A0060CD78 /* Bedtime.storyboard */,
-				0A71ACC922319D870060CD78 /* Stopwatch.storyboard */,
-				0A71ACCB22319D990060CD78 /* Timer.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -108,9 +103,7 @@
 		2E56CA6722319FDA00796109 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				0A71ACA222318ABA0060CD78 /* AppDelegate.swift */,
 				0A71ACA922318ABD0060CD78 /* Assets.xcassets */,
-				0A71ACAE22318ABD0060CD78 /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
