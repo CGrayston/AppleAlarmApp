@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A54E7492231BB480021E8A4 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A54E7482231BB480021E8A4 /* TimerViewController.swift */; };
+		0A54E74B2231BCCD0021E8A4 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A54E74A2231BCCD0021E8A4 /* RoundButton.swift */; };
 		0A71ACA322318ABA0060CD78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A71ACA222318ABA0060CD78 /* AppDelegate.swift */; };
 		0A71ACA822318ABA0060CD78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A71ACA622318ABA0060CD78 /* Main.storyboard */; };
 		0A71ACAA22318ABD0060CD78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A71ACA922318ABD0060CD78 /* Assets.xcassets */; };
@@ -23,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A54E7482231BB480021E8A4 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		0A54E74A2231BCCD0021E8A4 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 		0A71AC9F22318ABA0060CD78 /* AppleAlarmApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleAlarmApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A71ACA222318ABA0060CD78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0A71ACA722318ABA0060CD78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -70,12 +74,21 @@
 		0A71ACA122318ABA0060CD78 /* AppleAlarmApp */ = {
 			isa = PBXGroup;
 			children = (
+				0A71ACC122319D580060CD78 /* WorldClock.storyboard */,
+				0A71ACC422319D690060CD78 /* Alarm.storyboard */,
+				0A71ACCB22319D990060CD78 /* Timer.storyboard */,
+				0A71ACC922319D870060CD78 /* Stopwatch.storyboard */,
+				0A71ACC622319D7A0060CD78 /* Bedtime.storyboard */,
+				0A71ACA222318ABA0060CD78 /* AppDelegate.swift */,
 				2E56CA682231B64900796109 /* View Controllers */,
 				2E56CA6D2231BAEA00796109 /* Child View Controllers */,
 				2E56CA6622319FCC00796109 /* Storyboards */,
 				2E56CA6722319FDA00796109 /* Resources */,
 				0A71ACA622318ABA0060CD78 /* Main.storyboard */,
 				0A71ACAB22318ABD0060CD78 /* LaunchScreen.storyboard */,
+				0A71ACAE22318ABD0060CD78 /* Info.plist */,
+				0A54E7482231BB480021E8A4 /* TimerViewController.swift */,
+				0A54E74A2231BCCD0021E8A4 /* RoundButton.swift */,
 			);
 			path = AppleAlarmApp;
 			sourceTree = "<group>";
@@ -196,6 +209,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A54E74B2231BCCD0021E8A4 /* RoundButton.swift in Sources */,
+				0A54E7492231BB480021E8A4 /* TimerViewController.swift in Sources */,
 				2E56CA6A2231B6CA00796109 /* StopwatchViewController.swift in Sources */,
 				2E56CA732231BBB800796109 /* ChildStopWatch1ViewController.swift in Sources */,
 				2E56CA6C2231B77100796109 /* StopwacthPageViewController.swift in Sources */,
