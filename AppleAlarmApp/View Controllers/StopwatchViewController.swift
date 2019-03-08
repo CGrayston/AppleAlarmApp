@@ -11,6 +11,7 @@ import UIKit
 class StopwatchViewController: UIViewController {
     
     @IBOutlet weak var pageController: UIPageControl!
+    
     static let pageSwipedNotification = Notification.Name(rawValue: "pageSwiped")
     static let pageIndexKey = "pageIndex"
     
