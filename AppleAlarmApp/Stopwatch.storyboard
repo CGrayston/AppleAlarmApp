@@ -30,7 +30,7 @@
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="30"/>
+                                                <real key="value" value="29"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </button>
@@ -46,7 +46,7 @@
                                         </state>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
-                                                <real key="value" value="30"/>
+                                                <real key="value" value="29"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </button>
@@ -62,16 +62,27 @@
                                     <segue destination="4vW-Fl-FNb" kind="embed" id="ar0-rc-RZa"/>
                                 </connections>
                             </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0ZY-P2-xor">
+                                <rect key="frame" x="16" y="374.5" width="343" height="256.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <segue destination="azF-8z-QDc" kind="embed" id="PQk-6p-Vz8"/>
+                                </connections>
+                            </containerView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstItem="lDt-O8-8He" firstAttribute="centerX" secondItem="nzu-Y8-xz8" secondAttribute="centerX" id="3fh-9h-iUw"/>
+                            <constraint firstItem="Or9-fB-ch1" firstAttribute="trailing" secondItem="0ZY-P2-xor" secondAttribute="trailing" constant="16" id="I4F-KF-ogD"/>
+                            <constraint firstItem="0ZY-P2-xor" firstAttribute="top" secondItem="lDt-O8-8He" secondAttribute="bottom" constant="8" id="LiF-aD-vLG"/>
                             <constraint firstItem="gMF-vH-eCn" firstAttribute="leading" secondItem="Or9-fB-ch1" secondAttribute="leading" constant="16" id="VDO-Xi-ORk"/>
                             <constraint firstItem="lDt-O8-8He" firstAttribute="centerY" secondItem="nzu-Y8-xz8" secondAttribute="centerY" id="Zqh-CH-Ctj"/>
                             <constraint firstItem="lDt-O8-8He" firstAttribute="centerX" secondItem="nzu-Y8-xz8" secondAttribute="centerX" id="hBP-aL-Iac"/>
+                            <constraint firstItem="Or9-fB-ch1" firstAttribute="bottom" secondItem="0ZY-P2-xor" secondAttribute="bottom" constant="36" id="ivQ-bV-Zfi"/>
                             <constraint firstItem="gMF-vH-eCn" firstAttribute="top" secondItem="Or9-fB-ch1" secondAttribute="top" constant="36" id="kMK-Iw-llp"/>
                             <constraint firstItem="Or9-fB-ch1" firstAttribute="trailing" secondItem="gMF-vH-eCn" secondAttribute="trailing" constant="16" id="lVD-bq-VvG"/>
                             <constraint firstItem="lDt-O8-8He" firstAttribute="centerY" secondItem="nzu-Y8-xz8" secondAttribute="centerY" id="qaQ-9l-n0z"/>
+                            <constraint firstItem="0ZY-P2-xor" firstAttribute="leading" secondItem="Or9-fB-ch1" secondAttribute="leading" constant="16" id="r7o-ym-E1T"/>
                             <constraint firstItem="lDt-O8-8He" firstAttribute="top" secondItem="gMF-vH-eCn" secondAttribute="bottom" constant="7.5" id="w4t-CE-NEO"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Or9-fB-ch1"/>
@@ -91,7 +102,48 @@
                 <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="4vW-Fl-FNb" customClass="StopwacthPageViewController" customModule="AppleAlarmApp" customModuleProvider="target" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O3i-lg-7pu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1" y="400"/>
+            <point key="canvasLocation" x="-79" y="188"/>
+        </scene>
+        <!--Child Stopwatch List Table View Controller-->
+        <scene sceneID="Ney-Ku-yBE">
+            <objects>
+                <tableViewController id="azF-8z-QDc" customClass="ChildStopwatchListTableViewController" customModule="AppleAlarmApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="9yF-Uy-fpC">
+                        <rect key="frame" x="0.0" y="0.0" width="343" height="256.5"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="StopwatchCell" textLabel="maK-78-may" style="IBUITableViewCellStyleDefault" id="r8r-Di-i6F">
+                                <rect key="frame" x="0.0" y="28" width="343" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="r8r-Di-i6F" id="g4b-cw-vRo">
+                                    <rect key="frame" x="0.0" y="0.0" width="343" height="43.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Alarm" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="maK-78-may">
+                                            <rect key="frame" x="16" y="0.0" width="311" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                                            <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </tableViewCellContentView>
+                                <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="azF-8z-QDc" id="ho5-rg-rOA"/>
+                            <outlet property="delegate" destination="azF-8z-QDc" id="2SV-K1-SkT"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vi2-Bl-i2n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-31" y="561"/>
         </scene>
         <!--Child Stop Watch1 View Controller-->
         <scene sceneID="eBc-Zi-o0P">
@@ -119,7 +171,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Ik-4N-RIB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-926" y="1088"/>
+            <point key="canvasLocation" x="-886" y="1086"/>
         </scene>
         <!--Child Stopwatch2 View Controller-->
         <scene sceneID="j33-gr-rqd">

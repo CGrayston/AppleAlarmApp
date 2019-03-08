@@ -18,6 +18,7 @@
 		0A71ACC822319D7A0060CD78 /* Bedtime.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A71ACC622319D7A0060CD78 /* Bedtime.storyboard */; };
 		0A71ACCA22319D870060CD78 /* Stopwatch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A71ACC922319D870060CD78 /* Stopwatch.storyboard */; };
 		0A71ACCD22319D990060CD78 /* Timer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A71ACCB22319D990060CD78 /* Timer.storyboard */; };
+		2E2486D42231E64200EEE90F /* ChildStopwatchListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2486D32231E64200EEE90F /* ChildStopwatchListTableViewController.swift */; };
 		2E56CA6A2231B6CA00796109 /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56CA692231B6CA00796109 /* StopwatchViewController.swift */; };
 		2E56CA6C2231B77100796109 /* StopwacthPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56CA6B2231B77100796109 /* StopwacthPageViewController.swift */; };
 		2E56CA712231BB9800796109 /* ChildStopwatch2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E56CA702231BB9800796109 /* ChildStopwatch2ViewController.swift */; };
@@ -38,6 +39,7 @@
 		0A71ACC722319D7A0060CD78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = AppleAlarmApp/Base.lproj/Bedtime.storyboard; sourceTree = "<group>"; };
 		0A71ACC922319D870060CD78 /* Stopwatch.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Stopwatch.storyboard; sourceTree = "<group>"; };
 		0A71ACCC22319D990060CD78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = AppleAlarmApp/Base.lproj/Timer.storyboard; sourceTree = "<group>"; };
+		2E2486D32231E64200EEE90F /* ChildStopwatchListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildStopwatchListTableViewController.swift; sourceTree = "<group>"; };
 		2E56CA692231B6CA00796109 /* StopwatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
 		2E56CA6B2231B77100796109 /* StopwacthPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwacthPageViewController.swift; sourceTree = "<group>"; };
 		2E56CA702231BB9800796109 /* ChildStopwatch2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildStopwatch2ViewController.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			children = (
 				2E56CA702231BB9800796109 /* ChildStopwatch2ViewController.swift */,
 				2E56CA722231BBB800796109 /* ChildStopWatch1ViewController.swift */,
+				2E2486D32231E64200EEE90F /* ChildStopwatchListTableViewController.swift */,
 			);
 			path = "Child View Controllers";
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			files = (
 				0A54E74B2231BCCD0021E8A4 /* RoundButton.swift in Sources */,
 				0A54E7492231BB480021E8A4 /* TimerViewController.swift in Sources */,
+				2E2486D42231E64200EEE90F /* ChildStopwatchListTableViewController.swift in Sources */,
 				2E56CA6A2231B6CA00796109 /* StopwatchViewController.swift in Sources */,
 				2E56CA732231BBB800796109 /* ChildStopWatch1ViewController.swift in Sources */,
 				2E56CA6C2231B77100796109 /* StopwacthPageViewController.swift in Sources */,
